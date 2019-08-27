@@ -150,3 +150,8 @@ C:\Users\asus\source\repos\GitHub\MetaLolBuild\MetaLolBuild.UI\obj\Debug\en\Meta
 C:\Users\asus\source\repos\GitHub\MetaLolBuild\MetaLolBuild.UI\obj\Debug\MetaLolBuild.UI.csproj.CopyComplete
 C:\Users\asus\source\repos\GitHub\MetaLolBuild\MetaLolBuild.UI\obj\Debug\MetaLolBuild.UI.dll
 C:\Users\asus\source\repos\GitHub\MetaLolBuild\MetaLolBuild.UI\obj\Debug\MetaLolBuild.UI.pdb
+C:\Users\asus\source\repos\GitHub\MetaLolBuild\MetaLolBuild.UI\bin\System.Net.Http.dll
+C:\Users\asus\source\repos\GitHub\MetaLolBuild\MetaLolBuild.UI\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\asus\source\repos\GitHub\MetaLolBuild\MetaLolBuild.UI\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\asus\source\repos\GitHub\MetaLolBuild\MetaLolBuild.UI\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\asus\source\repos\GitHub\MetaLolBuild\MetaLolBuild.UI\bin\System.Security.Cryptography.X509Certificates.dll
