@@ -2,18 +2,18 @@
 @import url("https://fonts.googleapis.com/css?family=Aclonica|Poppins:300,400,500,600&display=swap");
 /* line 2, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
 .btn_1, .live_stareams .live_stareams_slide .live_stareams_slide_img:after, .Latest_War .Latest_War_text:after, .gallery_part .single_gallery_item .single_gallery_item_iner:after, .footer_part .single_footer_part .mail_part .email_icon {
-  background-image: -webkit-gradient(linear, right top, left top, from(#880000), color-stop(51%, #c6019a), to(#880000));
-  background-image: -webkit-linear-gradient(right, #880000 0%, #c6019a 51%, #880000 100%);
-  background-image: -o-linear-gradient(right, #880000 0%, #c6019a 51%, #880000 100%);
-  background-image: linear-gradient(to left, #880000 0%, #c6019a 51%, #880000 100%);
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(253,0,0,0.3)), color-stop(51%, #c6019a), to(rgba(253,0,0,0.3)));
+  background-image: -webkit-linear-gradient(right, rgba(253,0,0,0.3) 0%, #c6019a 51%, rgba(253,0,0,0.3) 100%);
+  background-image: -o-linear-gradient(right, rgba(253,0,0,0.3) 0%, #c6019a 51%, rgba(253,0,0,0.3) 100%);
+  background-image: linear-gradient(to left, rgba(253,0,0,0.3) 0%, #c6019a 51%, rgba(253,0,0,0.3) 100%);
 }
 
 /* line 8, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
 .main_menu .main-menu-item .nav-item a:before {
-  background-image: -webkit-gradient(linear, right top, left top, from(#c6019a), to(#880000));
-  background-image: -webkit-linear-gradient(right, #c6019a 0%, #880000 100%);
-  background-image: -o-linear-gradient(right, #c6019a 0%, #880000 100%);
-  background-image: linear-gradient(to left, #c6019a 0%, #880000 100%);
+  background-image: -webkit-gradient(linear, right top, left top, from(#c6019a), to(rgba(253,0,0,0.3)));
+  background-image: -webkit-linear-gradient(right, #c6019a 0%, rgba(253,0,0,0.3) 100%);
+  background-image: -o-linear-gradient(right, #c6019a 0%, rgba(253,0,0,0.3) 100%);
+  background-image: linear-gradient(to left, #c6019a 0%, rgba(253,0,0,0.3) 100%);
 }
 
 /* line 14, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_extends.scss */
@@ -607,9 +607,9 @@ ul {
 /* line 75, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_button.scss */
 .btn_2:hover {
   color: #fff !important;
-  border: 1px solid #880000;
+  border: 1px solid rgba(253,0,0,0.3);
   background-position: right center;
-  background-color: #880000;
+  background-color: rgba(253,0,0,0.3);
 }
 
 @media (max-width: 576px) {
@@ -638,7 +638,7 @@ ul {
 
 /* line 97, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_button.scss */
 .btn_4 {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   font-size: 15px;
   font-weight: 700;
   margin-top: 53px;
@@ -670,7 +670,7 @@ ul {
   color: #fff;
   border: 1px solid #edeff2;
   text-transform: uppercase;
-  background-color: #880000;
+  background-color: rgba(253,0,0,0.3);
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -741,7 +741,7 @@ ul {
 
 /* line 14, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
@@ -1257,7 +1257,7 @@ ul {
 
 /* line 546, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .blog_details a:hover {
-  color: #880000 !important;
+  color: rgba(253,0,0,0.3) !important;
 }
 
 /* line 551, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
@@ -1325,7 +1325,7 @@ ul {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #880000;
+  background-color: rgba(253,0,0,0.3);
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -1548,7 +1548,7 @@ ul {
 
 /* line 841, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #880000;
+  background: rgba(253,0,0,0.3);
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -1796,7 +1796,7 @@ ul {
 
 /* line 1207, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 /* line 1212, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
@@ -2141,7 +2141,7 @@ ul {
 
 /* line 18, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content p a {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 /* line 22, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_single_blog.scss */
@@ -2256,7 +2256,7 @@ ul {
 
 /* line 69, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .main_menu .dropdown-toggle:hover .nav-item .dropdown {
-  color: #880000 !important;
+  color: rgba(253,0,0,0.3) !important;
 }
 
 /* line 75, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -2272,7 +2272,7 @@ ul {
   max-width: 1140px;
   z-index: 999;
   text-align: center;
-  background: #880000;
+  background: rgba(253,0,0,0.3);
 }
 
 /* line 89, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -2373,12 +2373,12 @@ ul {
   width: 100%;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
   top: 0;
-  background-color: #880000;
+  background-color: rgba(253,0,0,0.3);
 }
 
 /* line 179, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
 .menu_fixed .active_color {
-  color: #880000 !important;
+  color: rgba(253,0,0,0.3) !important;
 }
 
 /* line 185, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -2389,7 +2389,7 @@ ul {
   transform: scale(1, 0);
   display: block;
   border: 0px solid transparent;
-  background-color: #880000;
+  background-color: rgba(253,0,0,0.3);
 }
 
 /* line 194, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
@@ -2397,7 +2397,7 @@ ul {
   font-size: 14px;
   padding: 8px 20px !important;
   color: #fff !important;
-  background-color: #880000;
+  background-color: rgba(253,0,0,0.3);
   text-transform: capitalize;
 }
 
@@ -2448,11 +2448,11 @@ ul {
   .dropdown:hover .dropdown-menu {
     transform: scale(1);
     display: block;
-    color: #880000;
+    color: rgba(253,0,0,0.3);
   }
   /* line 260, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .dropdown .dropdown-item:hover {
-    color: #880000 !important;
+    color: rgba(253,0,0,0.3) !important;
   }
   /* line 265, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .navbar-brand img {
@@ -2653,7 +2653,7 @@ ul {
 
 /* line 49, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
 .banner_part .banner_text h1 span {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 /* line 53, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_banner.scss */
@@ -2858,7 +2858,7 @@ ul {
   line-height: 60px;
   background-color: #fff;
   display: inline-block;
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   border-radius: 50%;
   text-align: center;
   padding-left: 4px;
@@ -2985,7 +2985,7 @@ ul {
 /* line 71, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
 .Latest_War .single_war_text a {
   display: inline-block;
-  background: linear-gradient(to right, #880000 0%, #c6019a 50%, #880000 100%);
+  background: linear-gradient(to right, rgba(253,0,0,0.3) 0%, #c6019a 50%, rgba(253,0,0,0.3) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% auto;
@@ -3472,7 +3472,7 @@ ul {
 
 /* line 98, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_feature_part.scss */
 .feature_part .feature_part_text .feature_part_text_iner:hover {
-  border: 1px solid #880000;
+  border: 1px solid rgba(253,0,0,0.3);
 }
 
 /* line 101, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_feature_part.scss */
@@ -3988,13 +3988,13 @@ ul {
   background-color: transparent;
   color: #fff;
   border: 2px solid;
-  border-image: linear-gradient(to left, #880000 0%, #c6019a 100%);
+  border-image: linear-gradient(to left, rgba(253,0,0,0.3) 0%, #c6019a 100%);
   border-image-slice: 1;
 }
 
 /* line 64, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_pricing_plan.scss */
 .pricing_part .single_pricing_part .btn_2:hover {
-  background: linear-gradient(to left, #880000 0%, #c6019a 100%);
+  background: linear-gradient(to left, rgba(253,0,0,0.3) 0%, #c6019a 100%);
 }
 
 @media (max-width: 991px) {
@@ -4122,14 +4122,14 @@ ul {
 
 /* line 36, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_cta_part.scss */
 .cta_part .banner_btn_1 {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   border: 0px solid transparent;
   margin-right: 28px;
 }
 
 /* line 40, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_cta_part.scss */
 .cta_part .banner_btn_1:hover {
-  background-color: #880000 !important;
+  background-color: rgba(253,0,0,0.3) !important;
   color: #fff;
 }
 
@@ -4142,7 +4142,7 @@ ul {
 
 /* line 51, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_cta_part.scss */
 .cta_part .banner_btn_2:hover {
-  background-color: #880000 !important;
+  background-color: rgba(253,0,0,0.3) !important;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -4244,7 +4244,7 @@ ul {
 
 /* line 68, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .single_footer_part .list-unstyled li a:hover {
-  color: #880000 !important;
+  color: rgba(253,0,0,0.3) !important;
 }
 
 /* line 75, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
@@ -4304,7 +4304,7 @@ ul {
 .footer_part .single_footer_part .mail_part .button-contactForm {
   padding: 11px;
   border: 2px solid;
-  border-image: linear-gradient(to left, #c6019a 0%, #880000 100%);
+  border-image: linear-gradient(to left, #c6019a 0%, rgba(253,0,0,0.3) 100%);
   border-image-slice: 1;
 }
 
@@ -4352,7 +4352,7 @@ ul {
 
 /* line 165, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .footer_icon li a :hover {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 @media (max-width: 576px) {
@@ -4370,7 +4370,7 @@ ul {
 
 /* line 188, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .copyright_text span {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   font-size: 12px;
 }
 
@@ -4383,14 +4383,14 @@ ul {
 
 /* line 200, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .copyright_text p a {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 /* line 204, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .copyright_text p a:hover {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 /* line 209, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
@@ -4430,7 +4430,7 @@ sup,
 sub,
 u,
 del {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 /* line 93, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
@@ -4597,28 +4597,28 @@ h1, h2, h3, h4, h5, h6 {
 /* line 217, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #880000;
+  background: rgba(253,0,0,0.3);
   border: 1px solid transparent;
 }
 
 /* line 221, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .genric-btn.primary:hover {
-  color: #880000;
-  border: 1px solid #880000;
+  color: rgba(253,0,0,0.3);
+  border: 1px solid rgba(253,0,0,0.3);
   background: #fff;
 }
 
 /* line 227, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .genric-btn.primary-border {
-  color: #880000;
-  border: 1px solid #880000;
+  color: rgba(253,0,0,0.3);
+  border: 1px solid rgba(253,0,0,0.3);
   background: #fff;
 }
 
 /* line 231, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #880000;
+  background: rgba(253,0,0,0.3);
   border: 1px solid transparent;
 }
 
@@ -4776,7 +4776,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #880000;
+  border-left: 2px solid rgba(253,0,0,0.3);
 }
 
 /* line 353, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
@@ -4931,7 +4931,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #880000;
+  border: 3px solid rgba(253,0,0,0.3);
   background: #fff;
   top: 4px;
   left: 0;
@@ -4946,7 +4946,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 475, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4961,7 +4961,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -4976,7 +4976,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -5059,7 +5059,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 568, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #880000;
+  border: 1px solid rgba(253,0,0,0.3);
 }
 
 /* line 574, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
@@ -5127,7 +5127,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #880000;
+  background: rgba(253,0,0,0.3);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -5218,7 +5218,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 696, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .primary-switch input:checked + label:before {
-  background: #880000;
+  background: rgba(253,0,0,0.3);
 }
 
 /* line 704, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
@@ -5605,13 +5605,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1022, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .default-select .nice-select .list .option.selected {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   background: transparent;
 }
 
 /* line 1026, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .default-select .nice-select .list .option:hover {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   background: transparent;
 }
 
@@ -5668,13 +5668,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1067, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   background: transparent;
 }
 
 /* line 1071, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_elements.scss */
 .form-select .nice-select .list .option:hover {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   background: transparent;
 }
 
@@ -5852,7 +5852,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #880000;
+  background-color: rgba(253,0,0,0.3);
   border-radius: 50%;
 }
 
@@ -5941,7 +5941,7 @@ h1, h2, h3, h4, h5, h6 {
 .blog_part .single-home-blog .card h5:hover {
   -webkit-transition: 0.8s;
   transition: 0.8s;
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 /* line 139, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog_part.scss */
@@ -6018,7 +6018,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 23, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 /* line 29, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_contact.scss */
@@ -6325,7 +6325,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 68, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .single_footer_part .list-unstyled li a:hover {
-  color: #880000 !important;
+  color: rgba(253,0,0,0.3) !important;
 }
 
 /* line 75, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
@@ -6385,7 +6385,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer_part .single_footer_part .mail_part .button-contactForm {
   padding: 11px;
   border: 2px solid;
-  border-image: linear-gradient(to left, #c6019a 0%, #880000 100%);
+  border-image: linear-gradient(to left, #c6019a 0%, rgba(253,0,0,0.3) 100%);
   border-image-slice: 1;
 }
 
@@ -6433,7 +6433,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 165, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .footer_icon li a :hover {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 @media (max-width: 576px) {
@@ -6451,7 +6451,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 188, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .copyright_text span {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   font-size: 12px;
 }
 
@@ -6464,14 +6464,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 200, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .copyright_text p a {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 /* line 204, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
 .footer_part .copyright_text p a:hover {
-  color: #880000;
+  color: rgba(253,0,0,0.3);
 }
 
 /* line 209, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_footer.scss */
