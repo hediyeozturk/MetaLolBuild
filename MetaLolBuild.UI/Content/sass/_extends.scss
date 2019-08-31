@@ -1,15 +1,15 @@
 /**************** extend css start ****************/
 %custom_btn_bg_1{
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(253,0,0,0.3)), color-stop(51%, #c6019a), to(rgba(253,0,0,0.3)));
-    background-image: -webkit-linear-gradient(right, rgba(253,0,0,0.3) 0%, #c6019a 51%, rgba(253,0,0,0.3) 100%);
-    background-image: -o-linear-gradient(right, rgba(253,0,0,0.3) 0%, #c6019a 51%, rgba(253,0,0,0.3) 100%);
-    background-image: linear-gradient(to left, rgba(253,0,0,0.3) 0%, #c6019a 51%, rgba(253,0,0,0.3) 100%);  
+    background-image: -webkit-gradient(linear, right top, left top, from(#ff0000), color-stop(51%, #c6019a), to(#ff0000));
+    background-image: -webkit-linear-gradient(right, #ff0000 0%, #c6019a 51%, #ff0000 100%);
+    background-image: -o-linear-gradient(right, #ff0000 0%, #c6019a 51%, #ff0000 100%);
+    background-image: linear-gradient(to left, #ff0000 0%, #c6019a 51%, #ff0000 100%);  
 }
 %custom_btn_bg{
-    background-image: -webkit-gradient(linear, right top, left top, from(#c6019a), to(rgba(253,0,0,0.3)));
-    background-image: -webkit-linear-gradient(right, #c6019a 0%, rgba(253,0,0,0.3) 100%);
-    background-image: -o-linear-gradient(right, #c6019a 0%, rgba(253,0,0,0.3) 100%);
-    background-image: linear-gradient(to left, #c6019a 0%, rgba(253,0,0,0.3) 100%);  
+    background-image: -webkit-gradient(linear, right top, left top, from(#c6019a), to(#ff0000));
+    background-image: -webkit-linear-gradient(right, #c6019a 0%, #ff0000 100%);
+    background-image: -o-linear-gradient(right, #c6019a 0%, #ff0000 100%);
+    background-image: linear-gradient(to left, #c6019a 0%, #ff0000 100%);  
 }
 %custom_btn_bg_2{
     background-image: -webkit-gradient(linear, right top, left top, from(#57ddff), color-stop(51%, #57ddff), to(#57ddff));

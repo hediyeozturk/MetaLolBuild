@@ -10,6 +10,7 @@ namespace MetaLolBuild.UI.Controllers {
 
         public ActionResult ChangeCulture(string lang, string returnUrl) {
             Ress.SharedStrings.Culture = new CultureInfo(lang);
+            TempData["Champions"] = null;
             return Redirect(returnUrl);
         }
     }

@@ -297,6 +297,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ChampionDetail\ChampionDetailBlockModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailImageModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailImage1Model.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailImage2Model.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailInfoModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailItemModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailLeveltipModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailPassiveModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailRecommendedModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailSkinModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailSpellModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailStatsModel.cs" />
+    <Compile Include="Models\ChampionDetail\ChampionDetailVarModel.cs" />
     <Compile Include="Models\Champion\ChampionImageModel.cs" />
     <Compile Include="Models\Champion\ChampionInfoModel.cs" />
     <Compile Include="Models\Champion\ChampionModel.cs" />
@@ -389,6 +403,7 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Views\Champion\Index.cshtml" />
+    <Content Include="Views\Champion\Detail.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

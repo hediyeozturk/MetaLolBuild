@@ -18,7 +18,7 @@
             @foreach (var item in Model) {
                 <div class="col-lg-3 col-sm-6" style="margin-bottom:30px;   background-color: transparent;">
                     <div class="single_pricing_part" style="background-image:url(@item.Image.ImageURL); background-size: auto;   background-color: transparent; ">
-                        <a href="#" class="btn_2" style="margin-top:100px">@item.Id</a>
+                        <a href="Champion/Detail/@item.Id" class="btn_2" style="margin-top:100px">@item.Id</a>
                     </div>
                 </div>
             }

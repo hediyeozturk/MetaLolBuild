@@ -58,11 +58,11 @@
             background-color: transparent;
             color: $white_color;
             border: 2px solid;
-            border-image: linear-gradient(to left, rgba(253,0,0,0.3) 0%, #c6019a 100%, );
+            border-image: linear-gradient(to left, #ff0000 0%, #c6019a 100%, );
             border-image-slice: 1;
 
             &:hover {
-                background: linear-gradient(to left, rgba(253,0,0,0.3) 0%, #c6019a 100%, );
+                background: linear-gradient(to left, #ff0000 0%, #c6019a 100%, );
             }
 
             @media #{$tab} {

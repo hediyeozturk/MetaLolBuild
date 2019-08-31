@@ -1,5 +1,6 @@
 ﻿using MetaLolBuild.UI.Data.JSON;
 using MetaLolBuild.UI.Models.Champion;
+using MetaLolBuild.UI.Models.ChampionDetail;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +15,9 @@ namespace MetaLolBuild.UI.Controllers {
         }
 
         public ActionResult Detail(string Id) {
-            champions = GetChampions();
+            ChampionDetailModel championDetailModel = GetChampionDetail(Id);
 
-            if (!String.IsNullOrEmpty(Id) && champions != null && champions.Count != 0) {
-                ChampionModel champion = champions.Where(s => s.Id == Id).FirstOrDefault();
-                return View(champion);
-            }
+            if (championDetailModel != null) return View(championDetailModel);
 
             return new HttpStatusCodeResult(404, "Bulunamadı");
         }
@@ -32,6 +30,12 @@ namespace MetaLolBuild.UI.Controllers {
                 return (List<ChampionModel>)TempData.Peek("Champions");
             }
             else return (List<ChampionModel>)TempData.Peek("Champions");
+        }
+
+        private ChampionDetailModel GetChampionDetail(string Id) {
+            JsonDataClass jsonDataClass = new JsonDataClass();
+            ChampionDetailModel championDetailModel = jsonDataClass.GetChampionDetail(Id);
+            return championDetailModel;
         }
     }
 }
