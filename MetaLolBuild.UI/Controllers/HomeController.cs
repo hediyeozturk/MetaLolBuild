@@ -13,5 +13,9 @@ namespace MetaLolBuild.UI.Controllers {
             TempData["Champions"] = null;
             return Redirect(returnUrl);
         }
+
+        public ActionResult Error() {
+            return View();
+        }
     }
 }
