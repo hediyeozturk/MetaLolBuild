@@ -18,7 +18,8 @@ namespace MetaLolBuild.UI {
             if (cultureInfo == null) {
                 var languageName = "en";
                 if (HttpContext.Current.Request.UserLanguages != null && HttpContext.Current.Request.UserLanguages.Length != 0) {
-                    languageName = HttpContext.Current.Request.UserLanguages[3].Substring(0, 2);
+                    //languageName = HttpContext.Current.Request.UserLanguages[3].Substring(0, 2);
+                    languageName = "tr";
                 }
                 cultureInfo = new CultureInfo(languageName);
                 Ress.SharedStrings.Culture = cultureInfo;

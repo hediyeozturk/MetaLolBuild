@@ -61,6 +61,33 @@ namespace Ress {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Zırh.
+        /// </summary>
+        public static string armor {
+            get {
+                return ResourceManager.GetString("armor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saldırı Gücü.
+        /// </summary>
+        public static string attackdamage {
+            get {
+                return ResourceManager.GetString("attackdamage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saldırı Hızı.
+        /// </summary>
+        public static string attackspeedoffset {
+            get {
+                return ResourceManager.GetString("attackspeedoffset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Şampiyonlar.
         /// </summary>
         public static string Champions {
@@ -70,11 +97,92 @@ namespace Ress {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hata.
+        /// </summary>
+        public static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aradığınız Sayfa Bulunamadı ! .
+        /// </summary>
+        public static string ErrorString {
+            get {
+                return ResourceManager.GetString("ErrorString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ana Sayfa.
         /// </summary>
         public static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Can.
+        /// </summary>
+        public static string hp {
+            get {
+                return ResourceManager.GetString("hp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Can Yenileme.
+        /// </summary>
+        public static string hpregen {
+            get {
+                return ResourceManager.GetString("hpregen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hareket Hızı.
+        /// </summary>
+        public static string movespeed {
+            get {
+                return ResourceManager.GetString("movespeed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to seviye başına.
+        /// </summary>
+        public static string perlevel {
+            get {
+                return ResourceManager.GetString("perlevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yetenekler.
+        /// </summary>
+        public static string Skills {
+            get {
+                return ResourceManager.GetString("Skills", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kostümler.
+        /// </summary>
+        public static string Skins {
+            get {
+                return ResourceManager.GetString("Skins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Büyü Direnci.
+        /// </summary>
+        public static string spellblock {
+            get {
+                return ResourceManager.GetString("spellblock", resourceCulture);
             }
         }
     }

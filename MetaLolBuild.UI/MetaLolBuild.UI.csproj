@@ -189,6 +189,7 @@
     <Content Include="Content\img\elements\primary-radio.png" />
     <Content Include="Content\img\elements\success-check.png" />
     <Content Include="Content\img\elements\success-radio.png" />
+    <Content Include="Content\img\errorPageIcon.png" />
     <Content Include="Content\img\event_bg.png" />
     <Content Include="Content\img\favicon.png" />
     <Content Include="Content\img\footer_bg.png" />
@@ -223,6 +224,7 @@
     <Content Include="Content\img\live_streams_1.png" />
     <Content Include="Content\img\live_streams_2.png" />
     <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\logo101.png" />
     <Content Include="Content\img\logo_bg.png" />
     <Content Include="Content\img\Portfolio.png" />
     <Content Include="Content\img\post\next.png" />
@@ -404,6 +406,7 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Views\Champion\Index.cshtml" />
     <Content Include="Views\Champion\Detail.cshtml" />
+    <Content Include="Views\Home\Error.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

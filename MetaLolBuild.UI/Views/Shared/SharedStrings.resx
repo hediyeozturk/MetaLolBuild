@@ -117,10 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="armor" xml:space="preserve">
+    <value>Zırh</value>
+  </data>
+  <data name="attackdamage" xml:space="preserve">
+    <value>Saldırı Gücü</value>
+  </data>
+  <data name="attackspeedoffset" xml:space="preserve">
+    <value>Saldırı Hızı</value>
+  </data>
   <data name="Champions" xml:space="preserve">
     <value>Şampiyonlar</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="ErrorString" xml:space="preserve">
+    <value>Aradığınız Sayfa Bulunamadı ! </value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Ana Sayfa</value>
+  </data>
+  <data name="hp" xml:space="preserve">
+    <value>Can</value>
+  </data>
+  <data name="hpregen" xml:space="preserve">
+    <value>Can Yenileme</value>
+  </data>
+  <data name="movespeed" xml:space="preserve">
+    <value>Hareket Hızı</value>
+  </data>
+  <data name="perlevel" xml:space="preserve">
+    <value>seviye başına</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Yetenekler</value>
+  </data>
+  <data name="Skins" xml:space="preserve">
+    <value>Kostümler</value>
+  </data>
+  <data name="spellblock" xml:space="preserve">
+    <value>Büyü Direnci</value>
   </data>
 </root>

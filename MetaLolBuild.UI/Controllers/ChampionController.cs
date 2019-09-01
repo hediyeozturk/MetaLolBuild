@@ -16,10 +16,8 @@ namespace MetaLolBuild.UI.Controllers {
 
         public ActionResult Detail(string Id) {
             ChampionDetailModel championDetailModel = GetChampionDetail(Id);
-
             if (championDetailModel != null) return View(championDetailModel);
-
-            return new HttpStatusCodeResult(404, "Bulunamadı");
+            return RedirectToAction("Error", "Home");
         }
 
         private List<ChampionModel> GetChampions() {
@@ -33,9 +31,15 @@ namespace MetaLolBuild.UI.Controllers {
         }
 
         private ChampionDetailModel GetChampionDetail(string Id) {
-            JsonDataClass jsonDataClass = new JsonDataClass();
-            ChampionDetailModel championDetailModel = jsonDataClass.GetChampionDetail(Id);
-            return championDetailModel;
+            try {
+                if (String.IsNullOrEmpty(Id)) return null;
+                JsonDataClass jsonDataClass = new JsonDataClass();
+                ChampionDetailModel championDetailModel = jsonDataClass.GetChampionDetail(Id);
+                return championDetailModel;
+            }
+            catch {
+                return null;
+            }
         }
     }
 }

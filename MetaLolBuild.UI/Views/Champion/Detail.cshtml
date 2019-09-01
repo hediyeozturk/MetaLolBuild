@@ -3,124 +3,142 @@
 @{
     ViewBag.Title = "Detail";
 }
-
+<style>
+    .chrow {
+        margin: 30px;
+    }
+</style>
 <section class="live_stareams padding_bottom">
-        <div class="container row">
-            <div class="col-lg-6" >
-                <div class="row">
-                    <div class="col-lg-12">
+    <div class="container row chrow ">
+        <div class="col-lg-6 col-sm-12">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="live_stareams_text">
+                        <div class=" row">
+                            <div class="col-lg-4">
+                                <img class="d-block" sizes="50px" src=@Model.profilePictureUrl>
+                            </div>
+                            <div class="col-lg-8">
+                                <h3>@Model.id</h3>
+                                <h6>@Model.title</h6>
+                            </div>
+                        </div>
+                        <hr width="100%" color="white" align="center" />
                         <div class="live_stareams_text">
                             <div class=" row">
-                                <div class="col-lg-4">
-                                    <img class="d-block" sizes="50px" src=@Model.profilePictureUrl>
+                                <div class="col-lg-6">
+                                    <h4>@Ress.SharedStrings.hp :</h4>
+                                    <h6>@Model.stats.hp<span> (+@Model.stats.hpperlevel @Ress.SharedStrings.perlevel)</span></h6>
+
                                 </div>
-                                <div class="col-lg-8">
-                                    <h3>@Model.id</h3>
-                                    <h6>@Model.title</h6>
+                                <div class="col-lg-6">
+                                    <h4>@Ress.SharedStrings.hpregen :</h4>
+                                    <h6>@Model.stats.hpregen<span> (+@Model.stats.hpregenperlevel @Ress.SharedStrings.perlevel)</span></h6>
+
                                 </div>
                             </div>
-                            <div class="live_stareams_text">
-                                <div class=" row">
-                                    <div class="col-lg-6">
-                                        <h6>Can:</h6>
-                                        <h6>@Model.stats.hp</h6>
+                            <br />
+                            <div class=" row">
+                                <div class="col-lg-6">
+                                    <h4>@Ress.SharedStrings.attackdamage :</h4>
+                                    <h6>@Model.stats.attackdamage <span> (+@Model.stats.attackdamageperlevel @Ress.SharedStrings.perlevel)</span> </h6>
 
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h6>Can Yenileme:</h6>
-                                        <h6>@Model.stats.hpregen</h6>
-
-                                    </div>
                                 </div>
-                                <div class=" row">
-                                    <div class="col-lg-6">
-                                        <h6>Saldırı Gücü:</h6>
-                                        <h6>@Model.stats.attackdamage</h6>
+                                <div class="col-lg-6">
+                                    <h4>@Ress.SharedStrings.armor :</h4>
+                                    <h6>@Model.stats.armor <span> (+@Model.stats.armorperlevel @Ress.SharedStrings.perlevel)</span></h6>
 
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h6>Zırh:</h6>
-                                        <h6>@Model.stats.armor</h6>
-
-                                    </div>
                                 </div>
-                                <div class=" row">
-                                    <div class="col-lg-6">
-                                        <h6>Saldırı Hızı:</h6>
-                                        <h6>@Model.stats.attackspeedperlevel</h6>
-
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h6>Büyü Direnci:</h6>
-                                        <h6>@Model.stats.spellblock <span>(+@Model.stats.spellblockperlevel seviye başına)</span></h6>
-
-                                    </div>
-                                </div>
-                                <div class=" row">
-                                    <div class="col-lg-6">
-                                        <h6>Hareket Hızı</h6>
-                                        <h6>@Model.stats.movespeed</h6>
-                                    </div>
-                                </div>
-
                             </div>
+                            <br />
+                            <div class=" row">
+                                <div class="col-lg-6">
+                                    <h4>@Ress.SharedStrings.attackspeedoffset :</h4>
+                                    <h6>@Model.stats.attackspeedoffset <span> (+@Model.stats.attackspeedperlevel % @Ress.SharedStrings.perlevel)</span></h6>
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <h4>@Ress.SharedStrings.spellblock :</h4>
+                                    <h6>@Model.stats.spellblock <span>(+@Model.stats.spellblockperlevel @Ress.SharedStrings.perlevel)</span></h6>
+
+                                </div>
+                            </div>
+                            <br />
+                            <div class=" row">
+                                <div class="col-lg-6">
+                                    <h4>@Ress.SharedStrings.movespeed :</h4>
+                                    <h6> @Model.stats.movespeed </h6>
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
-                    <div class="col-lg-12" style="border:1px solid green">
-                        skiller
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="col-lg-6">
-                <div class="col-lg-12 live_stareams_text">
-                    <h4>Skins</h4>
-                </div>
-                <div class="col-lg-12">
-                    <div id="carouselExampleControls" class="carousel slide w-100" data-ride="carousel">
-                        <div class="carousel-inner">
-                            @foreach (var skin in Model.skins) {
-                                if (skin.num == 0) {
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src=@skin.src alt=@skin.num +' slide'>
-                                    </div>
-                                }
-                                else {
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src=@skin.src alt=@skin.num +' slide'>
-                                    </div>
-                                }
+        <div class="col-lg-6">
+            <div class="col-lg-12 live_stareams_text">
+                <h4>@Ress.SharedStrings.Skins</h4>
+            </div>
+            <div class="col-lg-12">
+                <div id="carouselExampleControls" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner">
+                        @foreach (var skin in Model.skins) {
+                            if (skin.num == 0) {
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src=@skin.src alt=@skin.num +' slide'>
+                                </div>
                             }
+                            else {
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src=@skin.src alt=@skin.num +' slide'>
+                                </div>
+                            }
+                        }
 
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
+        </div>
 
-        </div>
-        <div class=" row">
-            <div class="col-lg-12" style="border:1px solid white">
-                spell desription
+    </div>
+    <div class="row chrow col-lg-12">
+            <div class="section-top-border">
+                @*<h3 class="mb-30">Block Quotes</h3>*@
+                <blockquote class="generic-blockquote">
+                    @Model.lore
+                </blockquote>
             </div>
+    </div>
+    <div class="row chrow">
+        <div class="col-lg-12" style="border:1px solid white">
+            @Ress.SharedStrings.Skills
         </div>
-        <div class=" row">
-            <div class="col-lg-12" style="border:1px solid yellow">
-                skill order
-            </div>
+    </div>
+    <div class="row chrow">
+        <div class="col-lg-12" style="border:1px solid white">
+            spell desription
         </div>
-        <div class=" row">
-            <div class="col-lg-12" style="border:1px solid orange">
-                item build
-            </div>
+    </div>
+    <div class="row chrow">
+        <div class="col-lg-12" style="border:1px solid yellow">
+            skill order
         </div>
+    </div>
+    <div class="row chrow">
+        <div class="col-lg-12" style="border:1px solid orange">
+            item build
+        </div>
+    </div>
 
 </section>
 

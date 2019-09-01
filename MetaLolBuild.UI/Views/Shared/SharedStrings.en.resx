@@ -117,10 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="armor" xml:space="preserve">
+    <value>Armor</value>
+  </data>
+  <data name="attackdamage" xml:space="preserve">
+    <value>Attack Damage</value>
+  </data>
+  <data name="attackspeedoffset" xml:space="preserve">
+    <value>Attack Speed</value>
+  </data>
   <data name="Champions" xml:space="preserve">
     <value>Champions</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorString" xml:space="preserve">
+    <value>Page Cannot Be Load!</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
+  </data>
+  <data name="hp" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="hpregen" xml:space="preserve">
+    <value>Health Regen</value>
+  </data>
+  <data name="movespeed" xml:space="preserve">
+    <value>Movement Speed</value>
+  </data>
+  <data name="perlevel" xml:space="preserve">
+    <value>per level</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Abilities</value>
+  </data>
+  <data name="Skins" xml:space="preserve">
+    <value>Skins</value>
+  </data>
+  <data name="spellblock" xml:space="preserve">
+    <value>Magic Resist</value>
   </data>
 </root>
